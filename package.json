@@ -1,0 +1,19 @@
+{
+  "name": "games",
+  "version": "1.0.0",
+  "description": "Games developed in p5.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Games",
+    "JS",
+    "P5.js"
+  ],
+  "author": "Mateus Tizotti",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
