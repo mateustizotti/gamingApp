@@ -13,7 +13,7 @@ function Puck() {
     }
 
     this.edges = function () {
-        if (this.pos.y >= height / 2 || this.pos.y <= - height / 2) {
+        if (this.pos.y >= height / 2 || this.pos.y <= -height / 2) {
             this.vel.y *= -1;
         }
     }
@@ -48,28 +48,27 @@ function Puck() {
     }
 
     this.scores = function () {
-        if (this.pos.x < - width / 2) {
+        if (this.pos.x < -width / 2) {
             score2++;
             this.reset();
         } else if (this.pos.x > width / 2) {
             score1++;
             this.reset();
         }
-        
+
     }
 
 
 
-    this.reset = function() {
+    this.reset = function () {
         this.pos = createVector(0, 0);
         this.vel = createVector();
-        let angle = random(-PI/2, PI/4);
+        let angle = random(-PI / 4, PI / 4);
         this.vel.x = 10 * Math.cos(angle);
         this.vel.y = 10 * Math.sin(angle);
 
         if (random(1) < 0.5) {
             this.vel.x *= -1;
-
         }
 
     }
