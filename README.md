@@ -23,7 +23,7 @@ Play with a friend! use "Q" and "A" to move the left paddle and up and down arro
 
 Use your keyboard's key arrows to control the sneak and be carefull not to hit a wall!
 
-![snake](../master/images/snake.PNG)
+![snake](../master/images/snake.png)
 
 ## SPACE INVADERS:
 
